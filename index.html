@@ -37,12 +37,10 @@
     const inputTest = document.getElementById("inputTest");
     
     inputField.addEventListener('inputTest', function(event) {
-    if (event.target.value == "hi") {
-      let backadd = document.querySelector('body');
-      let styleadd = window.getComputedStyle(backadd);
-      styleadd.background-image: url('https://media.tenor.com/x8v1oNUOmg4AAAAM/rickroll-roll.gif');
-    };
-  });
+      if (event.target.value === "t") {//R1457L3
+        document.body.style.backgroundImage = url('https://media.tenor.com/x8v1oNUOmg4AAAAM/rickroll-roll.gif');
+      };
+    });
   </script>
 </head>
 <body>
