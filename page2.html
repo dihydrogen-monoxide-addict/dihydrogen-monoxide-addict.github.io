@@ -15,7 +15,11 @@
   </style>
   <script>
     function replacer(item, index) {
-      item.innerHTML = "Hello";
+      if (Math.random() > 0.02) {
+        item.innerHTML = "Hello";
+      } else {
+        item.innerHTML = "The password is \"R1457L3\"";
+      }
     }
     function corruption() {
       //document.getElementById("corruptable").innerHTML = "Hello";
