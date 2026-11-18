@@ -33,9 +33,20 @@
     }
     .card:hover { box-shadow: 4px 4px 0 #2a1a1e; }
   </style>
+  <script>
+    const inputTest = document.getElementById("inputTest");
+    
+    inputField.addEventListener('inputTest', function(event) {
+    if (event.target.value == "hi") {
+      let backadd = document.querySelector('body');
+      let styleadd = window.getComputedStyle(backadd);
+      styleadd.background-image: url('https://media.tenor.com/x8v1oNUOmg4AAAAM/rickroll-roll.gif');
+    };
+  });
+  </script>
 </head>
 <body>
-  <h1>Hi, I'm Anonymous!</h1>
+  <h1>Hi, I'm (not so) Anonymous!</h1>
   <p>We do not forgive. We do not forget. Don't expect us (We're feeling a bit lazy right now). I like building robots and drawing and rickrolling. Also quite like the game Plants vs. Zombies:</p>
   <img src="https://media.tenor.com/fr8PYRekwbEAAAAM/auug.gif" alt="very important image">
   <h2>Stuff I like</h2>
